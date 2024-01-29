@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+header{
+    background: #ffffff;
+    padding: 5px 100px;
+}
+header .container{
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+nav a{
+    color: var(--1f1534-hyfen, #1F1534);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#hero{
+    color: #000;
+font-family: Mulish;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 116.667% */
+}
+.h1{
+    width: 600px;
+}
+#hero .container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.img{
+    width: 609px;
+height: 532px;
+flex-shrink: 0;
+}
+#hero  .box{
+    width: 600px;
+    font-size: 30px;
+}
+#hero  .hammasi{
+    width: 600px;
+    font-size: 50px;
+}
+#hero  .button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: blue;
+}
+#hero2{
+    width: 1500px;
+    border-color: blue solid;
+    text-align: center;
+    padding: 100px;
+}
+#hero2  .container{
+    display:flex;
+    justify-content: space-around;
+}
+#hero2  .box{
+    width: 300px;
+    padding: 50px;  
+}
+#hero2 .container2{
+    display:flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+} 
+#hero2  .container2  .box{
+    width: 300px;
+    padding: 50px;  
+}  
+#hero2  .button{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: white;
+    color: blue;
+    border-color: 10px solid blue;
+}
+#hero3  .container3{
+    width: 1500px;
+    border-color: blue solid;
+    text-align: center;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero3  .soz{
+    text-align: center;
+}
+#hero3  .box{
+   width: 380px; 
+}
+#hero4{
+    background-color: rgb(134, 237, 255);
+    width: 1400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+#hero4  .footer{
+    margin: 30px;
+    width: 350px;
+    height: 100px;
+    padding: 30px;
+}
+#hero4  .footer2{
+    width: 350px;
+    height: 150px;
+    font-size: 15px;
+    
+    padding: 30px;
+}
+#hero4  .footer3{
+    width: 350px;
+    height: 150px;
+    font-size: 20px; 
+    padding: 30px; 
+    display: flex;
+   color: white; 
+}

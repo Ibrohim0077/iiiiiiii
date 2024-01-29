@@ -1,0 +1,49 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(./Sports-Ball-Transparent.png);
+    background-size: cover;
+    position: fixed;
+    animation-name: harakat;
+    animation-duration: 10s;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+.box:active{
+animation-play-state: paused;
+
+
+
+}
+
+body {
+    background-color: green;
+
+}
+
+
+
+@keyframes harakat {
+    0% {
+        top: 50%;
+        left: 0;
+        transform: rotate(0deg);
+
+    }
+
+50%{
+    top: 0;
+    left: 50%;
+    transform: rotate(-360deg);
+
+}
+
+    100% {
+        top: 0;
+        right: 50%;
+        transform: rotate(720deg);
+    }
+}

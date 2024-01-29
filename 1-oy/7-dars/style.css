@@ -1,0 +1,22 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.box{
+background-color: aqua;
+width: 200px; ;
+padding: 5px;
+margin-top: 60px;
+margin-right: auto;
+margin-left: auto;
+}
+.lox{
+    background-color: aqua;
+    width: 200px; ;
+    padding: 5px;
+    margin-top: 0px;
+    margin-right: auto;
+}

@@ -1,0 +1,32 @@
+.box{
+    width: 200Px;
+    height: 200px;
+    background-image: url(./images-removebg-preview.png);
+    background-size: cover;
+    position: fixed;
+    animation-name: harakat;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.box:active{
+    animation-play-state: paused;
+}
+body{
+    background-color: green;
+}
+@keyframes harakat{
+    0%{
+        top: 50%;
+        left: 0%;
+        transform: rotate(0deg);
+    }
+    100%{
+        top: 50%;
+        left: 80%;
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,29 @@
+h1:hover{
+
+    color: red;
+}
+
+p::first-line{
+font-size: 60px;
+
+}
+p::selection{
+background-color: aqua;
+color: brown;
+}
+p{
+
+    user-select: none;
+}
+h1{
+color: blue;
+
+}
+h1::before{
+content: 'salom '  ;
+
+}
+h1::after{
+content: 'hayr ' ;
+
+}

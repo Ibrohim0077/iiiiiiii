@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px;
+    background-color: rgb(186, 186, 3);
+}
+.box{
+    text-align: center;
+    height: 90px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+}
+.container2{
+       background-color: rgb(181, 180, 180);
+       display:flex;
+    justify-content: space-around;
+}
+.home{
+   background-color: blue;
+   height: 40px;
+   width: 100px;
+   border: 190px;
+   border-color:black;
+   padding: 10px;
+border:1px solid black;
+}
+.about{
+    background-color: blue;
+    height: 40px;
+    width: 100px;
+    border: 190px;
+    border-color:black;
+    padding: 10px;
+    border:1px solid black;
+}
+.blog{
+    background-color: blue;
+    height: 40px;
+    width: 100px;
+    border: 190px;
+    border-color:black;
+    padding: 10px; 
+    border:1px solid black; 
+}
+.careers{
+    background-color: blue;
+    height: 45px;
+    width: 100px;
+    border: 190px;
+    border-color:black;
+    padding: 10px;
+    border:1px solid black; 
+}
+.contactus{
+    background-color: blue;
+    height: 40px;
+    width: 100px;
+    border: 190px;
+    border-color:black;
+    padding: 10px;
+    border:1px solid black;
+}
+.container3{
+background-color: gray;
+}
+.contunter{
+    border: 1px;
+    background-color: rgb(186, 186, 3);
+text-align: center;
+}

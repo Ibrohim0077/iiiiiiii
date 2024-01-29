@@ -1,0 +1,30 @@
+h4{
+    color: red;
+    text-align: center;
+    background-color: black;
+}
+
+#title2{
+    color: brown;
+}
+
+.title2{
+    color: yellow;
+    background-color: green;
+    text-align: center;
+}
+#title3{
+    color: pink;
+
+}
+p{
+    color: yellow !important;
+}
+
+.text{
+    color: blueviolet;
+}
+
+#text2{
+    color: blue;
+}

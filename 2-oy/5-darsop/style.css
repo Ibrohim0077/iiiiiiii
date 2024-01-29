@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://images.photowall.com/products/53452/portrait-of-a-wolf.jpg?h=699&q=85);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid 1px solid red;
+
+}
+.boxlar{
+    display: flex;
+}
+.box {
+   background-image: url(https://storage.googleapis.com/pod_public/1300/181355.jpg);
+   width: 500px;
+   height: 500px;
+   background-size: contain;
+   background-repeat: no-repeat;
+border: 1px solid red;
+background-attachment: fixed;
+align-items: center;
+justify-content: center;
+}
+.box1{
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+ border: 1px solid rgba(0, 0, 0, 0.324);
+ background-attachment: fixed;
+ border: 3px;
+}
+.box2{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8vIQWu2BISgcTou-4-4_VZizVWRKnsvGSGeovvcG6zBZnJ5-uLBSSZaArAQczyev7iGw&usqp=CAU);
+background-repeat: no-repeat;
+border: 1px solid 1px solid red;
+
+}

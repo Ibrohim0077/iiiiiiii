@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+header{
+    background: #282829;
+    padding: 5px 100px;
+}
+header .container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+}
+nav a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    text-decoration: none;
+}
+
+#hero .container h1{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 93px; /* 105.682% */
+    width: 743px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+}
+#hero{
+    width: 100%;
+}
+#hero .container{
+    width: 100%;
+    border: 1px solid green;
+    padding: 114px 0;
+}
+
+#cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.rasm img{
+border-radius: 5px;
+height:200px ;
+width: 300px;
+
+}
+
+.card h3, p{
+text-align: center;
+
+}
+
+footer{
+    background: #282829;
+    padding: 5px 100px;
+}
+
+footer .container1{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
